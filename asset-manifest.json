@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7ca50fce.css",
-    "main.js": "/portfolio/static/js/main.fad2143a.js",
+    "main.css": "/portfolio/static/css/main.08127df4.css",
+    "main.js": "/portfolio/static/js/main.8578dfec.js",
     "static/media/airbnb.png": "/portfolio/static/media/airbnb.876eb7ca1aacf4f16f6b.png",
     "static/media/amazon.png": "/portfolio/static/media/amazon.6ddc1d7f30d126330510.png",
     "static/media/property.png": "/portfolio/static/media/property.c1e57c6cf31c1527102d.png",
@@ -16,11 +16,11 @@
     "static/media/next.png": "/portfolio/static/media/next.c8221d28b481cb9b63bc.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.7ca50fce.css.map": "/portfolio/static/css/main.7ca50fce.css.map",
-    "main.fad2143a.js.map": "/portfolio/static/js/main.fad2143a.js.map"
+    "main.08127df4.css.map": "/portfolio/static/css/main.08127df4.css.map",
+    "main.8578dfec.js.map": "/portfolio/static/js/main.8578dfec.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ca50fce.css",
-    "static/js/main.fad2143a.js"
+    "static/css/main.08127df4.css",
+    "static/js/main.8578dfec.js"
   ]
 }
