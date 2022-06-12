@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7ca50fce.css",
+    "main.js": "/portfolio/static/js/main.fad2143a.js",
+    "static/media/airbnb.png": "/portfolio/static/media/airbnb.876eb7ca1aacf4f16f6b.png",
+    "static/media/amazon.png": "/portfolio/static/media/amazon.6ddc1d7f30d126330510.png",
+    "static/media/property.png": "/portfolio/static/media/property.c1e57c6cf31c1527102d.png",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/xamarin.png": "/portfolio/static/media/xamarin.70aa6129046a3d0b3bd4.png",
+    "static/media/angular.png": "/portfolio/static/media/angular.587b43174ccd615e8f19.png",
+    "static/media/dotnet.png": "/portfolio/static/media/dotnet.0a2e703f042669bc837e.png",
+    "static/media/azure.png": "/portfolio/static/media/azure.67ff28a37a798237d024.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.209703cedf1b1a96bc52.png",
+    "static/media/next.png": "/portfolio/static/media/next.c8221d28b481cb9b63bc.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.7ca50fce.css.map": "/portfolio/static/css/main.7ca50fce.css.map",
+    "main.fad2143a.js.map": "/portfolio/static/js/main.fad2143a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ca50fce.css",
+    "static/js/main.fad2143a.js"
+  ]
+}
