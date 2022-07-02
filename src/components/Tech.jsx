@@ -10,21 +10,17 @@ import DotNet from '../assets/dotnet.png';
 import Azure from '../assets/azure.png';
 import Xamarin from '../assets/xamarin.png';
 
-const Skills = () => {
+const Tech = () => {
   return (
-    <section id="skills" name="skills">      
-        <div className="flex flex-col
-            items-center w-full mx-auto px-4"> 
+    <section id="tech" name="tech">      
+        <div className="flex flex-col items-center w-full mx-auto px-4"> 
 
-            <div className='section-title text-center'>
-            <h2 className='text-black'>My Skills</h2>         
-            <p className='text-base sm:text-lg'>
-                These are some of my core technologies.
-            </p>
-            </div>
-            
-            <div className='mx-auto grid grid-cols-2 sm:grid-cols-5 text-center pt-8
-                gap-x-0 gap-y-10 w-full lg:w-[80%]'>
+        <div className='max-w-[1000px]'>          
+          <h2 className='text-3xl sm:text-5xl'>My Experience</h2>
+        </div>
+
+            <div className='mx-auto grid grid-cols-2 sm:grid-cols-5
+             text-center pt-8 gap-x-0 gap-y-10 w-full'>
 
                 <div className='group'>
                     <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={DotNet} alt='html' />
@@ -72,4 +68,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Tech

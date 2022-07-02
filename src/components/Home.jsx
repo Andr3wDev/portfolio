@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiChevronRight } from 'react-icons/hi';
-import { Link } from 'react-scroll';
 import { Typewriter } from "react-simple-typewriter"
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -10,30 +10,30 @@ const Home = () => {
         w-full max-w-[1000px] min-h-screen mx-auto 
         px-5 sm:px-7">
 
-        <span className='intro-text text-3xl sm:text-5xl'>
-          Hi, I'm Andrew Brown
+        <span className='text-3xl sm:text-5xl'>
+          I'm Andrew Brown
         </span>
-        <h2 className='text-2xl sm:text-4xl my-3'>
-          <span className='text-[#071034]'>
+        <h2 className='text-[#fb9c31] text-2xl
+         sm:text-4xl uppercase font-bold'>
             <Typewriter words={["Software Developer"]} 
             typeSpeed={80} deleteSpeed={50} delaySpeed={1500} />
-          </span>
         </h2>
         <p className='text-base sm:text-lg mt-7 mb-9 max-w-[700px]'>
-          I specialise in creating clean, robust and scalable software.
-          Currently, I'm focused on building responsive
-          full-stack web applications.
+          I'm a Junior Developer and specialise in creating clean,
+          robust and scalable Software.
+          Currently, I'm building responsive
+          full-stack Web Applications.
         </p>
         <div>
-        <Link to="projects" spy={true} smooth={true}>
+        <NavLink to="projects">
           <button className='text-base sm:text-lg home-btn
-            shadow-sm hover:bg-[#071034] hover:text-white'>
+            shadow-sm text-white bg-[#26293a] hover:text-[#fb9c31]'>
             My Projects
             <span className='inline-block align-middle'>
               <HiChevronRight size={28} className='ml-2' />
             </span>
           </button>
-        </Link>
+        </NavLink>
         </div>
       </div>
     </div>

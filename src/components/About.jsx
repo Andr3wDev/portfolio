@@ -3,18 +3,13 @@ import React from 'react'
 const About = () => {
   return (
     <section id="about" name='about'>
+      <div className="flex flex-col items-center w-full min-h-screen mx-auto px-4">
 
-      <div className="flex flex-col
-            items-center w-full min-h-screen mx-auto px-4">
+        <div className='max-w-[700px]'>
 
-        <div className='max-w-[600px] w-full gap-8'>
-          <div className='section-title text-center'>
-            <h2 className='text-black'>About Me</h2>         
-            <p className='text-base sm:text-lg'>Why Software Development?</p>        
-          </div>
-        </div>            
-        <div className='max-w-[600px] w-full gap-8'>
-            <p className='text-base sm:text-lg'>I am passionate about building excellent Software and creating
+            <h2 className='text-3xl sm:text-5xl'>About Me</h2>
+
+            <p className='text-base sm:text-lg mt-7'>I am passionate about building excellent Software and creating
               solutions that improve peoples lives.
             </p>
             <br/>
