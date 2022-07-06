@@ -13,16 +13,9 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
-  const sendMail = (e) => {
-    e.preventDefault();
-    const mailto =
-      "mailto:mail@gmail.com";
-      window.location.href = mailto;
-  }
-
   return (
-    <div className='light fixed w-full h-[72px] flex justify-evenly
-      items-center bg-[#26293a] z-50 align-middle shadow-sm'>
+    <div className='light w-full h-[72px] flex justify-evenly
+      items-center bg-[#26293a] z-50 align-middle shadow-sm relative'>
       
       <div className='flex'>
         <NavLink className='navbar-letters light-font text-lg' to="/">
@@ -45,9 +38,9 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/andrew-b-/">
             <FaLinkedin size={24} /></a>
         </li>
-        <li>
+        <li className="email-link">
           <HiOutlineMail size={24} />
-          <div className="hidden submenu">
+          <div className="hidden popup">
             29abrown@gmail.com
           </div>
         </li>

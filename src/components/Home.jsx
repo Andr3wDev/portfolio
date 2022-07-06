@@ -6,10 +6,8 @@ import { NavLink } from 'react-router-dom';
 const Home = () => {
   return (
     <div id="home" name="home">
-      <div className="flex flex-col justify-center
-        w-full max-w-[1000px] min-h-screen mx-auto 
-        px-5 sm:px-7">
-
+      <div className="flex flex-col pt-[15vh] h-screen
+        w-full max-w-[1000px] mx-auto px-5 sm:px-7">
         <span className='text-3xl sm:text-5xl'>
           I'm Andrew Brown
         </span>

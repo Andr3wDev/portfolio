@@ -12,59 +12,75 @@ import Xamarin from '../assets/xamarin.png';
 
 const Tech = () => {
   return (
-    <section id="tech" name="tech">      
-        <div className="flex flex-col items-center w-full mx-auto px-4"> 
-
-        <div className='max-w-[1000px]'>          
-          <h2 className='text-3xl sm:text-5xl'>My Experience</h2>
-        </div>
-
-            <div className='mx-auto grid grid-cols-2 sm:grid-cols-5
-             text-center pt-8 gap-x-0 gap-y-10 w-full'>
-
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={DotNet} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>.NET</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={Azure} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Azure</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={Xamarin} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Xamarin</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={ReactImg} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>React</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={Angular} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Angular</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={JavaScript} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>JavaScript</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={NextImg} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Next.js</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={Node} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Node.js</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={FireBase} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Firebase</p>
-                </div>
-                <div className='group'>
-                    <img className='group-hover:scale-110 duration-500 w-14 mx-auto' src={Tailwind} alt='html' />
-                    <p className='my-2 text-base sm:text-lg'>Tailwind</p>
-                </div>
+    <div id="tech" name="tech">      
+      <div className="flex flex-col pt-[15vh]
+        min-h-full items-center w-full mx-auto px-4">        
+        <div className='w-full max-w-[900px]'>          
+          <h2 className='text-3xl sm:text-5xl'>My Skillset</h2>          
+          <div className='row mt-8'>
+            <h2 className='text-[#fb9c31] text-2xl
+              sm:text-4xl uppercase font-bold'>Backend</h2>
+            <div className='mx-auto grid grid-cols-2 sm:grid-cols-6
+              gap-x-0 gap-y-8 mt-4'>
+              <div className="item">
+                <img src={DotNet} alt="skills"/>
+                <span>.NET</span>
+              </div>
+              <div className="item">
+                <img src={Node} alt="skills"/>
+                <span>Node.js</span>
+              </div>
+              <div className="item">
+                <img src={NextImg} alt="skills"/>
+                <span>Next.js</span>
+              </div>
             </div>
+          </div>
+          <div className='row mt-8'>
+            <h2 className='text-[#fb9c31] text-2xl
+              sm:text-4xl uppercase font-bold'>Frontend</h2>
+            <div className='mx-auto grid grid-cols-2 sm:grid-cols-6
+              gap-x-0 gap-y-8 mt-4'>
+              <div className="item">
+                <img src={Xamarin} alt="skills"/>
+                <span>Xamarin</span>
+              </div>
+              <div className="item">
+                <img src={Angular} alt="skills"/>
+                <span>Angular</span>
+              </div>
+              <div className="item">
+                <img src={ReactImg} alt="skills"/>
+                <span>React</span>
+              </div>
+              <div className="item">
+                <img src={Tailwind} alt="skills"/>
+                <span>Tailwind</span>
+              </div>
+              <div className="item">
+                <img src={JavaScript} alt="skills"/>
+                <span>JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div className='row mt-8'>
+            <h2 className='text-[#fb9c31] text-2xl
+            sm:text-4xl uppercase font-bold'>Infrastructure</h2>
+            <div className='mx-auto grid grid-cols-2 sm:grid-cols-6
+              gap-x-0 gap-y-8 mt-4'>
+              <div className="item">
+                <img src={Azure} alt="skills"/>
+                <span>Azure</span>
+              </div>
+              <div className="item">
+                <img src={FireBase} alt="skills"/>
+                <span>Firebase</span>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
   )
 }
 
