@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.40a9c79c.css",
-    "main.js": "/portfolio/static/js/main.33a3d921.js",
-    "static/media/airbnb.png": "/portfolio/static/media/airbnb.876eb7ca1aacf4f16f6b.png",
-    "static/media/amazon.png": "/portfolio/static/media/amazon.6ddc1d7f30d126330510.png",
-    "static/media/property.png": "/portfolio/static/media/property.c1e57c6cf31c1527102d.png",
+    "main.css": "/portfolio/static/css/main.eb21eaa4.css",
+    "main.js": "/portfolio/static/js/main.39e2969d.js",
+    "static/media/airbnb.png": "/portfolio/static/media/airbnb.78a3cd85342704fe38fa.png",
+    "static/media/amazon.png": "/portfolio/static/media/amazon.ed786e0d36e8870c535d.png",
+    "static/media/property.png": "/portfolio/static/media/property.2ed658557253af1443c8.png",
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/xamarin.png": "/portfolio/static/media/xamarin.70aa6129046a3d0b3bd4.png",
@@ -16,11 +16,11 @@
     "static/media/next.png": "/portfolio/static/media/next.c8221d28b481cb9b63bc.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.40a9c79c.css.map": "/portfolio/static/css/main.40a9c79c.css.map",
-    "main.33a3d921.js.map": "/portfolio/static/js/main.33a3d921.js.map"
+    "main.eb21eaa4.css.map": "/portfolio/static/css/main.eb21eaa4.css.map",
+    "main.39e2969d.js.map": "/portfolio/static/js/main.39e2969d.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a9c79c.css",
-    "static/js/main.33a3d921.js"
+    "static/css/main.eb21eaa4.css",
+    "static/js/main.39e2969d.js"
   ]
 }
