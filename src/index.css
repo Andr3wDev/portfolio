@@ -75,17 +75,17 @@ a.social-nav {
 .email-link:hover .popup {
   display: block;
   position: absolute;
-  top: 100%;
-  right: 0;
+  top: calc(72px + 0.5rem);
+  right: 0.5rem;
   background: #26293a;
   padding: 6px;
-  border-bottom-left-radius:4px;
+  border-radius: 4px;
 }
 .item {
   position:relative;
   background-color:#26293a;
   border-radius: 4px;
-  padding:20px 30px;
+  padding:1rem 2rem;
   margin:0 auto;
   text-align:center;
 }

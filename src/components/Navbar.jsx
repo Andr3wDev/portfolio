@@ -14,8 +14,8 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='light w-full h-[72px] flex justify-evenly
-      items-center bg-[#26293a] z-50 align-middle shadow-sm relative'>
+    <div className='light w-full h-[72px] flex justify-evenly shadow-gray-600
+      items-center bg-[#26293a] z-50 align-middle shadow relative'>
       
       <div className='flex'>
         <NavLink className='navbar-letters light-font text-lg' to="/">
