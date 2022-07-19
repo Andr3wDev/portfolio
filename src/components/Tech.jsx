@@ -9,6 +9,7 @@ import Angular from '../assets/angular.png';
 import DotNet from '../assets/dotnet.png';
 import Azure from '../assets/azure.png';
 import Xamarin from '../assets/xamarin.png';
+import Skill from '../components/Skill';
 
 const Tech = () => {
   return (
@@ -22,18 +23,9 @@ const Tech = () => {
               sm:text-4xl uppercase font-bold'>Backend</h2>
             <div className='mx-auto grid grid-cols-2 sm:grid-cols-6
               gap-x-0 gap-y-8 mt-4'>
-              <div className="item">
-                <img src={DotNet} alt="skills"/>
-                <span>.NET</span>
-              </div>
-              <div className="item">
-                <img src={Node} alt="skills"/>
-                <span>Node.js</span>
-              </div>
-              <div className="item">
-                <img src={NextImg} alt="skills"/>
-                <span>Next.js</span>
-              </div>
+              <Skill src={DotNet} title=".NET" />
+              <Skill src={Node} title="Node.js" />
+              <Skill src={NextImg} title="Next.js" />
             </div>
           </div>
           <div className='row mt-8'>
@@ -41,41 +33,20 @@ const Tech = () => {
               sm:text-4xl uppercase font-bold'>Frontend</h2>
             <div className='mx-auto grid grid-cols-2 sm:grid-cols-6
               gap-x-0 gap-y-8 mt-4'>
-              <div className="item">
-                <img src={Xamarin} alt="skills"/>
-                <span>Xamarin</span>
-              </div>
-              <div className="item">
-                <img src={Angular} alt="skills"/>
-                <span>Angular</span>
-              </div>
-              <div className="item">
-                <img src={ReactImg} alt="skills"/>
-                <span>React</span>
-              </div>
-              <div className="item">
-                <img src={Tailwind} alt="skills"/>
-                <span>Tailwind</span>
-              </div>
-              <div className="item">
-                <img src={JavaScript} alt="skills"/>
-                <span>JavaScript</span>
-              </div>
+              <Skill src={Xamarin} title="Xamarin" />
+              <Skill src={Angular} title="Angular" />
+              <Skill src={ReactImg} title="React" />
+              <Skill src={Tailwind} title="Tailwind" />
+              <Skill src={JavaScript} title="JavaScript" />
             </div>
           </div>
           <div className='row mt-8'>
             <h2 className='text-[#fb9c31] text-2xl
             sm:text-4xl uppercase font-bold'>Infrastructure</h2>
             <div className='mx-auto grid grid-cols-2 sm:grid-cols-6
-              gap-x-0 gap-y-8 mt-4'>
-              <div className="item">
-                <img src={Azure} alt="skills"/>
-                <span>Azure</span>
-              </div>
-              <div className="item">
-                <img src={FireBase} alt="skills"/>
-                <span>Firebase</span>
-              </div>
+              gap-x-0 gap-y-8 mt-4'>                
+              <Skill src={Azure} title="Azure" />
+              <Skill src={FireBase} title="Firebase" />
             </div>
           </div>
         </div>

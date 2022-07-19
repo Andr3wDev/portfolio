@@ -26,13 +26,13 @@ const Projects = () => {
                   <h2 className='text-[#fb9c31] text-2xl
                   sm:text-4xl uppercase font-bold'>Airbnb Clone</h2>
                   <span className="text-base sm:text-lg block pt-2 text-grey-20">
-                    This project is a clone of the Airbnb Application. Currently a work in progress.
-                    It is built using Next.js and React. 
-                    The plan is to implement a .NET API in the future.
+                    This project is a clone of the Airbnb Application. 
+                    It is built using Next.js, React and Mapbox. The 
+                    features are limited to search and display locations.
                   </span>
                   <div className="content-links mt-4">
                     <a className='mr-3' href="https://airbnb-next.vercel.app/">Demo
-                    <HiOutlineExternalLink size={24} className='ml-1' />
+                      <HiOutlineExternalLink size={24} className='ml-1' />
                     </a>
                     <a className='ml-3' href="https://github.com/Andr3wDev/Next_Airbnb_React">Code             
                       <HiOutlineFolderOpen size={24} className='ml-1'/>
@@ -54,7 +54,7 @@ const Projects = () => {
                   </span>
                   <div className="content-links mt-4">
                     <a className='mr-3' href="https://angular-property.web.app/">Demo
-                    <HiOutlineExternalLink size={24} className='ml-1' />
+                      <HiOutlineExternalLink size={24} className='ml-1' />
                     </a>
                     <a className='ml-3' href="https://github.com/Andr3wDev/.Net_Angular_Property">Code             
                       <HiOutlineFolderOpen size={24} className='ml-1'/>
@@ -81,7 +81,7 @@ const Projects = () => {
                 </span>
                 <div className="content-links mt-4">
                   <a className='mr-3' href="https://ecommerce-1585a.web.app/">Demo
-                  <HiOutlineExternalLink size={24} className='ml-1' />
+                    <HiOutlineExternalLink size={24} className='ml-1' />
                   </a>
                   <a className='ml-3' href="https://github.com/Andr3wDev/React_Next_Ecommerce">Code             
                     <HiOutlineFolderOpen size={24} className='ml-1'/>
