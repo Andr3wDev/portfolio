@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio - Andrew</title>
+      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <meta name="description" content="Portfolio">
+      <meta name="keywords" content="Portfolio">
+      <meta name="author" content="Portfolio">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" href="assets/styles.css">
+   </head>
+   <body>
+      <div class="loading-spinner" id="loadingSpinner">
+         <div class="spinner"></div>
+      </div>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top" id="header-nav">
+         <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar"></span>
+            <span class="navbar-toggler-bar mb-0"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                     <a class="nav-link active" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav mt-2 mt-md-0 d-flex flex-row justify-content-start justify-content-md-center">
+                  <li class="nav-item">
+                     <a href="https://github.com/Andr3wDev?tab=repositories" class="social-link" target="_blank" data-tooltip="GitHub"><i class="fa-brands fa-github"></i></a>
+                  </li>
+                  <li class="nav-item ms-2 me-2">
+                     <a href="https://www.linkedin.com/in/andrew-b-/" class="social-link" target="_blank" data-tooltip="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="mailto:29abrown@gmail.com" class="social-link mail" data-tooltip="29abrown@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="home" class="align-items-md-center justify-content-md-center">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-6 col-lg-6 text-start order-1 order-md-0">
+                  <h1 class="mt-0 mt-md-3 mb-3">I'm Andrew Brown</h1>
+                  <h3>Intermediate Developer</h3>
+                  <p class="home-info">
+                     As an accomplished software developer, I specialize in the .NET stack, Azure, SQL, and Angular.<br/>I've successfully delivered two freelancing projects, in addition to my commercial employment showcasing my skillset in crafting software. 
+                  </p>
+               </div>
+               <div class="col-12 col-md-6 col-lg-6 order-0 order-md-1">
+                  <img src="img/hero.png" alt="hero image">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="skills">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section-title">Skills</div>
+                  <div class="col-12 col-sm-8 mx-auto">
+                     <div class="skills-type-title">Backend</div>
+                     <hr class="skills-hr mx-0">
+                     <div class="skills-grid gap-4 gap-sm-5">
+                        <div class="grid-item">
+                           <img src="img/dotnet.png" alt=".NET">
+                           <p>.NET</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/node.png" alt="Node.js">
+                           <p>Node.js</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/next.png" alt="Next.js">
+                           <p>Next.js</p>
+                        </div>
+                     </div>
+                     <div class="skills-type-title">Frontend</div>
+                     <hr class="skills-hr mx-0">
+                     <div class="skills-grid gap-4 gap-sm-5">
+                        <div class="grid-item">
+                           <img src="img/angular.png" alt="Angular">
+                           <p>Angular</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/xamarin.png" alt="Xamarin">
+                           <p>Xamarin</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/javascript.png" alt="Javascript">
+                           <p>Javascript</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/tailwind.png" alt="Tailwind">
+                           <p>Tailwind</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/react.png" alt="React">
+                           <p>React</p>
+                        </div>
+                     </div>
+                     <div class="skills-type-title">Infrastructure</div>
+                     <hr class="skills-hr mx-0">
+                     <div class="skills-grid gap-4 gap-sm-5">
+                        <div class="grid-item">
+                           <img src="img/azure.png" alt="Azure">
+                           <p>Azure</p>
+                        </div>
+                        <div class="grid-item">
+                           <img src="img/firebase.png" alt="Firebase">
+                           <p>Firebase</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="projects">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="section-title">
+                     Projects			
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="row portfolio-container">
+                     <div class="col-12 col-md-6 portfolio-item">
+                        <div class='proj-item'>
+                           <div class="proj-img">
+                              <img src="img/api.png" alt="api" loading="lazy" />
+                           </div>
+                           <div class='proj-content-wrap'>
+                              <h3>.NET 7 Api</h3>
+                              <hr class="proj-hr">
+                              <span>This is a WIP for a library system. It consists of .NET 7, MediatR, CQRS, Mapster, nLog, PostgreSQL, Custom Middleware and Error Handling</span>
+                              <div class="content-links">
+                                 <a class="btn-first" href="https://github.com/Andr3wDev/Api_CQRS_MediatR">Code</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 portfolio-item">
+                        <div class='proj-item'>
+                           <div class="proj-img">
+                              <img src="img/property.png" alt="property" loading="lazy"/>
+                           </div>
+                           <div class="proj-content-wrap">
+                              <h3>Real Estate Web App</h3>
+                              <hr class="proj-hr">
+                              <span> This project consists of a .NET Core API residing in Azure, and Angular frontend. Featuring Entity Framework, Unit of Work, Alertify, JWT. </span>
+                              <div class="content-links">
+                                 <a class='btn-first' href="https://angular-property.web.app/">Demo </a>
+                                 <a class='btn-second' href="https://github.com/Andr3wDev/.Net_Angular_Property">Code </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 portfolio-item">
+                        <div class='proj-item'>
+                           <div class="proj-img">
+                              <img src="img/airbnb.png" alt="airbnb" loading="lazy"/>
+                           </div>
+                           <div class='proj-content-wrap'>
+                              <h3>Airbnb Clone</h3>
+                              <hr class="proj-hr">
+                              <span>This example is a clone of Airbnb . Created using Next.js, React and Mapbox. The features are limited to search and display locations.</span>
+                              <div class="content-links">
+                                 <a class="btn-first" href="https://airbnb-next.vercel.app/">Demo</a>
+                                 <a class="btn-second" href="https://github.com/Andr3wDev/Next_Airbnb_React">Code</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-6 portfolio-item">
+                        <div class='proj-item'>
+                           <div class='proj-img'>
+                              <img src="img/amazon.png" alt="amazon" loading="lazy"/>
+                           </div>
+                           <div class='proj-content-wrap'>
+                              <h3>Amazon Clone</h3>
+                              <hr class="proj-hr">
+                              <span> This project is a clone of the Amazon Web App. It is built using Next.js and React, hosted on Firebase. Featuring Stripe payment integration. </span>
+                              <div class="content-links">
+                                 <a class='btn-first' href="https://ecommerce-1585a.web.app/">Demo </a>
+                                 <a class='btn-second' href="https://github.com/Andr3wDev/React_Next_Ecommerce">Code </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/scripts.js"></script>
+   </body>
+</html>
